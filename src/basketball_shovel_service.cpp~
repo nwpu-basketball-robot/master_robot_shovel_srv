@@ -34,7 +34,7 @@ private:
     void changeCurrentShovelControlType(int control_type) ;
 
 private:
-    enum ShovelControlType{GET_BALL, GET_HOLD_BALL, GET_FROM_HOLD,HIGH_DOWN, HIGH_LIFT,DOWN_FROM_HOLD} current_control_type_ ;//控制方法
+    enum ShovelControlType{GET_BALL0, GET_HOLD_BALL, GET_FROM_HOLD,GET_FROM_HOLD,GET_FROM_HOLD} current_control_type_ ;//控制方法
     ros::ServiceServer robot_shovel_srv_ ;
     ros::NodeHandle nh_ ;
     ros::Publisher robot_shovel_pub_ ;
